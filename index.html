@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #designing{
+        margin: auto;
+        margin-top: 13%;
+        width: 500px;
+        height: 300px;
+        background-color: #0000ff54;
+        border: 2px solid #0000ffb9;
+        border-radius: 5px;
+        box-shadow:#0000ffb9 2px 1px 5px 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+       }
+       #mainDiv{
+    
+        width: 60%;
+        height: 100px;
+        color: white;
+        background-color: #ff006634;
+        border: 2px solid #ff00ee63;
+        border-radius: 5px;
+        font: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       button{
+        background-color: #4747f1bf;
+        border: 1px solid rgba(0, 0, 128, 0.92);
+        width: 90px;
+        height: 30px;
+        margin:0px auto 10px auto ;
+       }
+       button:hover{
+        background-color: #2626cafb;
+        border: 1px solid #020249;
+        box-shadow:#5757b1 1px 0px 3px 1px;
+        color: white;
+        border-radius: 5px;
+
+       }
+    </style>
+</head>
+<body>
+    <div id="designing">
+    <h1 id="mainDiv">
+
+    </h1>
+    
+    <button id="start" onclick="start()">Start</button>
+    <button id="stop" onclick="stop()">Stop</button>
+    <button id="reset" onclick="reset()">Reset</button>
+</div>
+    <script src="./timer.js"></script>
+</body>
+</html>
